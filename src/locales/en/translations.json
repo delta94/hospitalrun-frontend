@@ -1,0 +1,291 @@
+{
+  "actions": {
+    "label": "Actions",
+    "edit": "Edit",
+    "save": "Save",
+    "update": "Update",
+    "complete": "Complete",
+    "delete": "Delete",
+    "cancel": "Cancel",
+    "new": "New",
+    "list": "List",
+    "search": "Search",
+    "confirmDelete": "Delete Confirmation",
+    "next": "Next",
+    "previous": "Previous",
+    "page": "Page"
+  },
+  "dashboard": {
+    "label": "Dashboard"
+  },
+  "incidents": {
+    "filterTitle": " Filter by status",
+    "label": "Incidents",
+    "actions": {
+      "report": "Report"
+    },
+    "status": {
+      "reported": "reported",
+      "all": "all"
+    },
+    "reports": {
+      "label": "Reported Incidents",
+      "new": "Report Incident",
+      "view": "View Incident",
+      "dateOfIncident": "Date of Incident",
+      "department": "Department",
+      "category": "Category",
+      "categoryItem": "Category Item",
+      "description": "Description of Incident",
+      "code": "Code",
+      "reportedBy": "Reported By",
+      "reportedOn": "Reported On",
+      "status": "Status",
+      "error": {
+        "dateRequired": "Date is required.",
+        "dateMustBeInThePast": "Date must be in the past.",
+        "departmentRequired": "Department is required.",
+        "categoryRequired": "Category is required",
+        "categoryItemRequired": "Category Item is required",
+        "descriptionRequired": "Description is required"
+      }
+    }
+  },
+  "labs": {
+    "label": "Labs",
+    "filterTitle": "Filter by status",
+    "search": "Search labs",
+    "status": {
+      "requested": "Requested",
+      "completed": "Completed",
+      "canceled": "Canceled"
+    },
+    "filter": {
+      "all": "All statuses"
+    },
+    "requests": {
+      "label": "Lab Requests",
+      "new": "New Lab Request",
+      "view": "View Lab",
+      "cancel": "Cancel Lab",
+      "complete": "Complete Lab",
+      "error": {
+        "unableToRequest": "Unable to create new lab request.",
+        "unableToComplete": "Unable to complete lab request.",
+        "typeRequired": "Type is required.",
+        "resultRequiredToComplete": "Result is required to complete."
+      }
+    },
+    "lab": {
+      "code": "Lab Code",
+      "status": "Status",
+      "for": "For",
+      "type": "Type",
+      "result": "Result",
+      "notes": "Notes",
+      "requestedOn": "Requested On",
+      "completedOn": "Completed On",
+      "canceledOn": "Canceled On",
+      "patient": "Patient"
+    }
+  },
+  "networkStatus": {
+    "offline": "you are working in offline mode",
+    "online": "you are back online"
+  },
+  "patient": {
+    "code": "Patient Code",
+    "firstName": "First Name",
+    "lastName": "Last Name",
+    "suffix": "Suffix",
+    "prefix": "Prefix",
+    "givenName": "Given Name",
+    "familyName": "Family Name",
+    "dateOfBirth": "Date of Birth",
+    "approximateDateOfBirth": "Approximate Date of Birth",
+    "age": "Age",
+    "approximateAge": "Approximate Age",
+    "placeOfBirth": "Place of Birth",
+    "sex": "Sex",
+    "phoneNumber": "Phone Number",
+    "email": "Email",
+    "address": "Address",
+    "occupation": "Occupation",
+    "type": "Patient Type",
+    "preferredLanguage": "Preferred Language",
+    "basicInformation": "Basic Information",
+    "generalInformation": "General Information",
+    "contactInformation": "Contact Information",
+    "unknownDateOfBirth": "Unknown",
+    "relatedPerson": "Related Person",
+    "relatedPersons": {
+      "error": {
+        "unableToAddRelatedPerson": "Unable to add new related person.",
+        "relatedPersonRequired": "Related Person is required.",
+        "relationshipTypeRequired": "Relationship Type is required."
+      },
+      "label": "Related Persons",
+      "new": "New Related Person",
+      "add": "Add Related Person",
+      "relationshipType": "Relationship Type",
+      "warning": {
+        "noRelatedPersons": "No related persons"
+      },
+      "addRelatedPersonAbove": "Add a related person using the button above."
+    },
+    "appointments": {
+      "new": "Add Appointment"
+    },
+    "allergies": {
+      "label": "Allergies",
+      "allergyName": "Allergy Name",
+      "new": "Add Allergy",
+      "error": {
+        "nameRequired": "Name is required.",
+        "unableToAdd": "Unable to add allergy."
+      },
+      "warning": {
+        "noAllergies": "No Allergies"
+      },
+      "addAllergyAbove": "Add an allergy using the button above.",
+      "successfullyAdded": "Successfully added a new allergy!"
+    },
+    "diagnoses": {
+      "label": "Diagnoses",
+      "new": "Add Diagnosis",
+      "diagnosisName": "Diagnosis Name",
+      "diagnosisDate": "Diagnosis Date",
+      "warning": {
+        "noDiagnoses": "No Diagnoses"
+      },
+      "error": {
+        "nameRequired": "Diagnosis Name is required.",
+        "dateRequired": "Diagnosis Date is required.",
+        "unableToAdd": "Unable to add new diagnosis"
+      },
+      "addDiagnosisAbove": "Add a diagnosis using the button above.",
+      "successfullyAdded": "Successfully added a new diagnosis!"
+    },
+    "note": "Note",
+    "notes": {
+      "label": "Notes",
+      "new": "Add New Note",
+      "warning": {
+        "noNotes": "No Notes"
+      },
+      "error": {
+        "noteRequired": "Note is required.",
+        "unableToAdd": "Unable to add new note."
+      },
+      "addNoteAbove": "Add a note using the button above."
+    },
+    "labs": {
+      "label": "Labs",
+      "new": "Add New Lab",
+      "warning": {
+        "noLabs": "No Labs"
+      },
+      "noLabsMessage": "No labs requests for this person."
+    },
+    "carePlan": {
+      "new": "Add Care Plan",
+      "label": "Care Plans",
+      "title": "Title",
+      "description": "Description",
+      "status": "Status",
+      "condition": "Condition",
+      "intent": "Intent",
+      "startDate": "Start Date",
+      "endDate": "End Date",
+      "note": "Note",
+      "error": {
+        "unableToAdd": "Unable to add a new care plan.",
+        "titleRequired": "Title is required.",
+        "descriptionRequired": "Description is required.",
+        "conditionRequired": "Condition is required.",
+        "statusRequired": "Status is required.",
+        "intentRequired": "Intent is required.",
+        "startDate": "Start date is required.",
+        "endDate": "End date is required"
+      }
+    },
+    "types": {
+      "charity": "Charity",
+      "private": "Private"
+    },
+    "errors": {
+      "createPatientError": "Could not create new patient.",
+      "updatePatientError": "Could not update patient.",
+      "patientGivenNameFeedback": "Given Name is required.",
+      "patientDateOfBirthFeedback": "Date of Birth can not be greater than today",
+      "patientNumInSuffixFeedback": "Cannot contain numbers.",
+      "patientNumInPrefixFeedback": "Cannot contain numbers.",
+      "patientNumInFamilyNameFeedback": "Cannot contain numbers.",
+      "patientNumInPreferredLanguageFeedback": "Cannot contain numbers.",
+      "invalidEmail": "Must be a valid email.",
+      "invalidPhoneNumber": "Must be a valid phone number."
+    }
+  },
+  "patients": {
+    "label": "Patients",
+    "patientsList": "Patients List",
+    "viewPatients": "View Patients",
+    "viewPatient": "View Patient",
+    "newPatient": "New Patient",
+    "editPatient": "Edit Patient",
+    "successfullyCreated": "Successfully created patient",
+    "successfullyAddedNote": "Successfully added the new note",
+    "successfullyAddedRelatedPerson": "Successfully added a new related person"
+  },
+  "scheduling": {
+    "label": "Scheduling",
+    "appointments": {
+      "label": "Appointments",
+      "new": "New Appointment",
+      "schedule": "Appointment Schedule",
+      "editAppointment": "Edit Appointment",
+      "deleteAppointment": "Delete Appointment",
+      "viewAppointment": "View Appointment"
+    },
+    "appointment": {
+      "startDate": "Start Date",
+      "endDate": "End Date",
+      "location": "Location",
+      "type": "Type",
+      "types": {
+        "checkup": "Checkup",
+        "emergency": "Emergency",
+        "followUp": "Follow Up",
+        "routine": "Routine",
+        "walkIn": "Walk In"
+      },
+      "errors": {
+        "createAppointmentError": "Could not create new appointment.",
+        "updateAppointmentError": "Could not update appointment.",
+        "patientRequired": "Patient is required.",
+        "startDateMustBeBeforeEndDate": "Start Time must be before End Time."
+      },
+      "reason": "Reason",
+      "patient": "Patient",
+      "deleteConfirmationMessage": "Are you sure that you want to delete this appointment?",
+      "successfullyCreated": "Successfully created appointment.",
+      "successfullyDeleted": "Successfully deleted appointment."
+    }
+  },
+  "settings": {
+    "label": "Settings",
+    "language": {
+      "label": "Language"
+    }
+  },
+  "sex": {
+    "male": "Male",
+    "female": "Female",
+    "other": "Other",
+    "unknown": "Unknown"
+  },
+  "states": {
+    "success": "Success!",
+    "error": "Error!"
+  }
+}

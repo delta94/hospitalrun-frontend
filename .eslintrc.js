@@ -27,12 +27,12 @@ module.exports = {
   settings: {
     'import/resolver': {
       node: {
-        extensions: ['.js', '.jsx', '.ts', '.tsx'],
-        moduleDirectory: ["node_modules"],
+        extensions: ['.js', '.jsx', '.ts', '.tsx', '.json'],
+        moduleDirectory: ['node_modules'],
       },
-      "typescript": {
+      typescript: {
         alwaysTryTypes: true,
-      }
+      },
     },
     'import/parsers': {
       '@typescript-eslint/parser': ['.ts', '.tsx'],
@@ -60,20 +60,27 @@ module.exports = {
     'no-debugger': 'error',
     'no-nested-ternary': 'off',
     'import/no-unresolved': 'off',
-    'import/extensions': ['error', 'never'],
-    'import/order': ["error", {
-      "groups": [
-        "external",
-        ["sibling","parent","internal"],
-        "builtin",
-        "unknown",
-      ],
-      "newlines-between": "always",
-      "alphabetize": {
-        "order": 'asc',
-        "caseInsensitive": true,
+    'import/extensions': [
+      'error',
+      'always',
+      {
+        ts: 'never',
+        tsx: 'never',
+        js: 'never',
+        jsx: 'never',
       },
-    }],
+    ],
+    'import/order': [
+      'error',
+      {
+        groups: ['external', ['sibling', 'parent', 'internal'], 'builtin', 'unknown'],
+        'newlines-between': 'always',
+        alphabetize: {
+          order: 'asc',
+          caseInsensitive: true,
+        },
+      },
+    ],
     curly: ['error', 'all'],
   },
 }

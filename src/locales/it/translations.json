@@ -1,0 +1,18 @@
+{
+  "actions": {
+    "label": "Azioni",
+    "edit": "Modifica",
+    "save": "Salva",
+    "update": "Aggiorna",
+    "complete": "Complete",
+    "delete": "Delete",
+    "cancel": "Cancel",
+    "new": "New",
+    "list": "List",
+    "search": "Search",
+    "confirmDelete": "Conferma Eliminazione",
+    "next": "Next",
+    "previous": "Previous",
+    "page": "Page"
+  }
+}

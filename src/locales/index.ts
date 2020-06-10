@@ -1,14 +1,12 @@
-import translationAR from './ar/translations'
-import translationDE from './de/translations'
-import translationEnUs from './enUs/translations'
-import translationES from './es/translations'
-import translationFR from './fr/translations'
-import translationID from './id/translations'
-import translationIT from './it/translations'
-import translationJA from './ja/translations'
-import translationPtBR from './ptBr/translations'
-import translationRU from './ru/translations'
-import translationZhCN from './zhCN/translations'
+import translationAR from './ar/translations.json'
+import translationDE from './de/translations.json'
+import translationEnUs from './en/translations.json'
+import translationES from './es/translations.json'
+import translationFR from './fr/translations.json'
+import translationIT from './it/translations.json'
+import translationPtBR from './pt/translations.json'
+import translationRU from './ru/translations.json'
+import translationZhCN from './zh/translations.json'
 
 const resources: { [language: string]: any } = {
   it: {
@@ -34,14 +32,6 @@ const resources: { [language: string]: any } = {
   fr: {
     name: 'French',
     translation: translationFR,
-  },
-  id: {
-    name: 'Indonesian',
-    translation: translationID,
-  },
-  ja: {
-    name: 'Japanese',
-    translation: translationJA,
   },
   ptBR: {
     name: 'Portuguese',

@@ -115,6 +115,8 @@
     "lint": "eslint \"src/**/*.{js,jsx,ts,tsx}\" \"scripts/**/*.{js,ts}\"",
     "lint:fix": "eslint \"src/**/*.{js,jsx,ts,tsx}\" \"scripts/**/*.{js,ts}\" --fix",
     "lint-staged": "lint-staged",
+    "crowdin-upload": "crowdin --config ./crowdin.yml upload sources --auto-update -b master",
+    "crowdin-download": "crowdin --config ./crowdin.yml download -b master",
     "commitlint": "commitlint",
     "coveralls": "npm run test:ci -- --coverage --watchAll=false && cat ./coverage/lcov.info",
     "translation:check": "cd scripts && tsc && node ../bin/scripts/checkMissingTranslations.js"
